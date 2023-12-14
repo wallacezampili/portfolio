@@ -314,70 +314,50 @@ nav {
 /*      Footer      */
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
+    padding: 30px;
+   
 }
 
-.form {
 
-    flex-basis: 45%;
+
+
+.social-media {
+
+    color: #fff;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 1.6em;
+}
+
+.contact-info p i {
+    margin: 0px 20px;
+    color: var(--turquoise);
+    font-size: 1.2em;
+}
+.social-container
+{
+    margin-left: 50px;
+    height: 100%;
     
 }
-
-.form form {
-    width: 100%;
-
-}
-.form form input,
-.form form textarea {
-    font-family: var(--font);
-    width: 100%;
-    border: 0;
-    outline: none;
-    background-color: #262626;
-    padding: 15px;
-    margin: 20px 0px;
-    color: #fff;
-    font-size: 1.2em;
-    border-radius: 6px;
-}
-
-.form form input
-{
-    height: 15px;
-}
-.social-media {
-    color: #fff;
-    font-size: 1.2em;
-    padding: 30px;
-}
-
-.social-media p {
-    margin: 60px 0;
-}
-
-.social-media p i {
-    margin: 0px 20px;
-    color: #fff;
-    font-size: 1.2em;
-}
-
 .social-links {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 45px 0;
+    margin: 60px 0;
 }
 
 .social-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.6em;
+    font-size: 2.5em;
     margin: 0 25px;
     transition: 0.2s;
 }
